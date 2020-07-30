@@ -306,11 +306,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-.products--content-style {
+@font-face {
+  font-family: "Oswald";
+  src: url("/kat.html/fonts/oswaldmedium.woff2");
+  src: url("/kat.html/fonts/oswaldmedium.woff");
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("/kat.html/fonts/oswaldregular.woff");
+  src: url("/kat.html/fonts/oswaldregular.woff2");
+}
+.products .products--maxwi {
   max-width: 290px;
   margin: auto;
 }
-.products--content-style .products__title {
+.products .products__title {
   width: 280px;
   height: 77px;
   color: #111111;
@@ -320,17 +330,17 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 60px;
   margin: 19px 0;
 }
-.products--content-style .goods__body {
+.products .goods__body {
   display: flex;
 }
-.products--content-style .goods__body .content-box__propertyes {
-  height: 67px;
+.products .goods__body .content-box__propertyes {
+  height: x;
 }
-.products--content-style .goods__img-product {
+.products .goods__img-product {
   width: 140px;
   height: 144px;
 }
-.products--content-style .content-box .content-box__title {
+.products .content-box .content-box__title {
   width: 72px;
   height: 51px;
   color: #111111;
@@ -339,8 +349,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
+  margin-top: 20px;
 }
-.products--content-style .content-box .category {
+.products .content-box .category {
   display: flex;
   font-family: "Arial MT";
   font-size: 12px;
@@ -348,17 +359,18 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 16px;
   color: #444444;
 }
-.products--content-style .content-box .category .category__information {
+.products .content-box .category .category__information {
   margin-right: 64px;
   min-width: 37px;
 }
-.products--content-style .products__button {
+.products .products__button {
   display: block;
   width: 100%;
   background-color: #68b738;
   height: 40px;
+  margin-bottom: 25px;
 }
-.products--content-style .products__button .btn__text {
+.products .products__button .btn__text {
   width: 61px;
   height: 15px;
   color: #ffffff;
@@ -367,4 +379,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
+}
+.products .goods {
+  border: 1px solid #ededed;
 }
