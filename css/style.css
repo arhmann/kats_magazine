@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.header__wrapper {
+  font-family: "Oswald";
+  position: relative;
+}
+.header__wrapper .header--pad-marg {
+  padding: 11px 21px;
+}
+.header__wrapper .header_logo-fox {
+  width: 33px;
+  height: 38px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .header__wrapper .header__text-middle {
+    width: 101px;
+    height: 18px;
+    margin-left: calc(50% - 86px);
+    margin-bottom: 4px;
+  }
+}
+.header__wrapper .st0 {
+  fill: #fdc305;
+}
+.header__wrapper .st1 {
+  fill: #f06351;
+}
+.header__wrapper .menu__list {
+  font-size: 35px;
+  display: none;
+}
+.header__wrapper .menu__list .menu__link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e6e6e6;
+  padding: 20px;
+  color: #111111;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.header__wrapper .menu--btn-style {
+  position: absolute;
+  top: 15px;
+  left: calc(100% - 55px);
+  bottom: 0;
+}
+.header__wrapper .menu__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3px;
+  width: 23px;
+  background-color: black;
+  position: relative;
+  margin: 19px 9px 0;
+}
+.header__wrapper .menu__btn::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 23px;
+  left: 0;
+  top: -7px;
+  background-color: black;
+  position: absolute;
+}
+.header__wrapper .menu__btn::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 23px;
+  left: 0;
+  top: 8px;
+  background-color: black;
+  position: absolute;
+}
+.header__wrapper .menu__btn.button--active {
+  background-color: transparent;
+}
+.header__wrapper .menu__btn.button--active::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+.header__wrapper .menu__btn.button--active::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+.header__wrapper .nav--active {
+  display: block;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.products--content-style {
+  max-width: 290px;
+  margin: auto;
+}
+.products--content-style .products__title {
+  width: 280px;
+  height: 77px;
+  color: #111111;
+  font-family: Oswald;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 19px 0;
+}
+.products--content-style .goods__body {
+  display: flex;
+}
+.products--content-style .goods__img-product {
+  width: 140px;
+  height: 144px;
+}
+.products--content-style .content-box .content-box__title {
+  width: 72px;
+  height: 51px;
+  color: #111111;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.products--content-style .content-box .category {
+  display: flex;
+  font-family: "Arial MT";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #444444;
+}
+.products--content-style .content-box .category .category__information {
+  margin-right: 64px;
+  min-width: 37px;
+}
+.products--content-style .products__button {
+  display: block;
+  width: 100%;
+  background-color: #68b738;
+  height: 40px;
+}
+.products--content-style .products__button .btn__text {
+  width: 61px;
+  height: 15px;
+  color: #ffffff;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}

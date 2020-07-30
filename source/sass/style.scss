@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+@import "nullstyle.scss";
+@import "header.scss";
+@import "section__products";
+
+
+@mixin fontf($ff, $fs) {
+    font-family: $ff;
+    font-size: $fs;
+}

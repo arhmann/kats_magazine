@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+@import "nullstyle.scss";
+
+.header__wrapper {
+    font-family: "Oswald";
+    position: relative;
+
+    .header--pad-marg {
+        padding: 11px 21px;
+    }
+
+    .header_logo-fox {
+        width: 33px;
+        height: 38px;
+    }
+
+    .header__text-middle {
+        @media only screen and (min-width: 320px) and (max-width: 768px) {
+            width: 101px;
+            height: 18px;
+            margin-left: calc(50% - 86px);
+            margin-bottom: 4px;
+        }
+    }
+
+    .st0 {
+        fill: #fdc305;
+    }
+
+    .st1 {
+        fill: #f06351;
+    }
+
+    .menu__list {
+        font-size: 35px;
+        display: none;
+
+        .menu__link {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid #e6e6e6;
+            padding: 20px;
+            color: #111111;
+
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+
+    .menu--btn-style {
+        position: absolute;
+        top: 15px;
+        left: calc(100% - 55px);
+        bottom: 0;
+    }
+
+    .menu__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3px;
+        width: 23px;
+        background-color: black;
+        position: relative;
+        margin: 19px 9px 0;
+
+        &::before {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 23px;
+            left: 0;
+            top: -7px;
+            background-color: black;
+            position: absolute;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 23px;
+            left: 0;
+            top: 8px;
+            background-color: black;
+            position: absolute;
+        }
+
+        &.button--active {
+            background-color: transparent;
+        }
+        &.button--active::before {
+            transform: rotate(45deg);
+            top: 0;
+        }
+        &.button--active::after {
+            transform: rotate(-45deg);
+            top: 0;
+        }
+    }
+
+    .nav--active {
+        display: block;
+        width: 100%;
+    }
+}
