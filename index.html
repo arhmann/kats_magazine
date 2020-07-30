@@ -87,9 +87,14 @@
       <article class="products__list goods">
         <div class="goods__body">
 
-          <div class="goods__block-img">
-            <img src="./img/rice-small-mobile@1x.jpg" alt="product box" class="goods__img-product">
-          </div>
+          <picture class="goods__block-img">
+            <source media="(max-width: 641px)" srcset="./img/chicken-small-mobile@1x.jpg 1x, ./img/chicken-small-mobile@2x.jpg 2x">
+            <source media="(min-width: 641px) and (max-width: 960px)" srcset="./img/chicken-small-tablet@1x.png 1x, ./img/chicken-small-tablet@2x.png 2x" >
+            <source media="(min-width: 961px)" srcset="./img/rice-small-desktop@1x.png 1x, ./img/rice-small-desktop@2x.png 2x">
+            <img src="./img/rice-small-desktop@1x.png" alt="product box" srcset="./img/rice-small-desktop@2x.png"
+              class="goods__img-product">
+          </picture>
+
 
           <div class="goods__discription content-box">
             <h3 class="content-box__title">Cat enegry pro 500г</h3>
