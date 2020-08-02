@@ -2,9 +2,4 @@
 @import "nullstyle.scss";
 @import "header.scss";
 @import "section__products";
-
-
-@mixin fontf($ff, $fs) {
-    font-family: $ff;
-    font-size: $fs;
-}
+@import "section__products-other";

@@ -1,21 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
 @import "nullstyle.scss";
 
 @font-face {
     font-family: "Oswald";
-    src: url("/kat.html/fonts/oswaldmedium.woff2");
-    src: url("/kat.html/fonts/oswaldmedium.woff");
+    src: url("../fonts/oswaldmedium.woff2");
+    src: url("../fonts/oswaldmedium.woff");
+    font-weight: 400;
 }
 
 @font-face {
     font-family: "Oswald";
-    src: url("/kat.html/fonts/oswaldregular.woff");
-    src: url("/kat.html/fonts/oswaldregular.woff2");
+    src: url("../fonts/oswaldregular.woff");
+    src: url("../fonts/oswaldregular.woff2");
+    font-weight: 500;
 }
 
 .products {
     .products--maxwi {
-       max-width: 290px;
+        max-width: 290px;
         margin: auto;
     }
 
@@ -25,7 +26,7 @@
         color: #111111;
         font-family: Oswald;
         font-size: 39px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 60px;
         margin: 19px 0;
     }
@@ -50,7 +51,7 @@
             color: #111111;
             font-family: Oswald;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 500;
             line-height: 20px;
             text-transform: uppercase;
             margin-top: 20px;
@@ -84,7 +85,7 @@
             color: #ffffff;
             font-family: Oswald;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 500;
             line-height: 20px;
             text-transform: uppercase;
         }
@@ -92,5 +93,66 @@
 
     .goods {
         border: 1px solid #ededed;
+    }
+
+    .plus-add-avg {
+        width: 30px;
+        height: 30px;
+
+        opacity: 0.2;
+    }
+
+    .block-seeAll__content {
+        display: flex;
+        flex-direction: column;
+
+        .plus-add-svg {
+            width: 30px;
+            margin: 27px auto;
+            display: flex;
+            opacity: 0.2;
+        }
+
+        .block-seeAll__title {
+            width: 217px;
+            height: 17px;
+            color: #111111;
+            font-family: Oswald;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            margin: 0 auto 11px;
+            display: flex;
+            text-transform: uppercase;
+        }
+
+        .block-seeAll__text {
+            width: 203px;
+            height: 12px;
+            color: #444444;
+            font-family: "Arial MT";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            margin: 0 auto 22px;
+        }
+
+        .block-seeAll__button {
+            width: 280px;
+            height: 40px;
+            background-color: #f2f2f2;
+            margin: 0 auto 50px;
+
+            .btn_text {
+                width: 89px;
+                height: 15px;
+                color: #444444;
+                font-family: Oswald;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                text-transform: uppercase;
+            }
+        }
     }
 }
