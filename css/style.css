@@ -512,6 +512,9 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 2px solid #68b738;
   position: relative;
 }
+.products-other .products-other--mrgn-top {
+  margin-top: 40px;
+}
 .products-other .products-other__content {
   display: flex;
   flex-direction: column;
@@ -585,8 +588,36 @@ h1, h2, h3, h4, h5, h6 {
 .products-other .products-other__brdr {
   border-bottom: 2px solid #cdcdcd;
   margin-top: 17px;
+  margin-bottom: 17px;
 }
 
 .products-other__btn-block {
   margin: auto;
+}
+
+.products-other__block-img {
+  position: relative;
+}
+.products-other__block-img .products-other__img-product {
+  display: flex;
+  margin: 20px auto 0;
+}
+.products-other__block-img .products-other__svg {
+  width: 55px;
+  height: 60px;
+  position: absolute;
+  top: 62px;
+  left: calc(50% - 28px);
+}
+.products-other__block-img .products-other__text {
+  position: absolute;
+  top: 140px;
+  left: calc(50% - 87px);
+  width: 171px;
+  height: 56px;
+  color: #ffffff;
+  font-family: "Arial MT";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
