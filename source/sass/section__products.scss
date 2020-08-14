@@ -19,14 +19,14 @@
         max-width: 290px;
         margin: auto;
 
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             max-width: 707px;
             width: 100%;
         }
     }
 
     .products__content {
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
@@ -43,7 +43,7 @@
         line-height: 60px;
         margin: 19px 0;
 
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             margin: 19px 0 156px;
         }
     }
@@ -52,7 +52,7 @@
         display: flex;
         overflow: visible;
 
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             flex-direction: column;
 
             .goods__block-img {
@@ -67,7 +67,7 @@
     }
 
     .goods__block-img {
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             .img--small {
                 width: 322px;
                 height: 166px;
@@ -89,7 +89,7 @@
     }
 
     .content-box__propertyes {
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             margin-bottom: 36px;
             position: relative;
 
@@ -103,7 +103,7 @@
         }
     }
 
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .mrgn--style {
             margin-top: -43px;
         }
@@ -120,7 +120,7 @@
         text-transform: uppercase;
         margin-top: 20px;
 
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             margin: auto;
             width: 132px;
             color: #111111;
@@ -140,7 +140,7 @@
         line-height: 16px;
         color: #444444;
 
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             color: #444444;
             font-family: "Arial MT";
             font-size: 16px;
@@ -152,7 +152,7 @@
             margin-right: 64px;
             min-width: 37px;
 
-            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
                 margin-right: 146px;
                 min-width: 65px;
                 font-size: 16px;
@@ -169,7 +169,7 @@
         height: 40px;
         margin-bottom: 25px;
 
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             width: 260px;
         }
 
@@ -188,7 +188,7 @@
     .goods {
         border: 1px solid #ededed;
 
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             width: 324px;
             height: 431px;
             background-color: #f1f1f2;
@@ -205,7 +205,7 @@
     .block-seeAll__content {
         display: flex;
         flex-direction: column;
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
             width: 324px;
             height: 431px;
             border-left: 2px solid #f2f2f2;
@@ -217,7 +217,7 @@
             margin: 27px auto;
             display: flex;
             opacity: 0.2;
-            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
                 width: 60px;
                 height: 60px;
                 margin-bottom: 51px;
@@ -238,7 +238,7 @@
             display: flex;
             text-transform: uppercase;
 
-            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
                 width: 149px;
                 height: 38px;
                 font-size: 20px;
@@ -257,7 +257,7 @@
             line-height: 16px;
             margin: 0 auto 22px;
 
-            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
                 width: 165px;
                 height: 35px;
                 font-size: 16px;
@@ -271,7 +271,7 @@
             height: 40px;
             background-color: #f2f2f2;
             margin: 0 auto 50px;
-            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
                 height: 43px;
             }
 

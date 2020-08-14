@@ -11,6 +11,11 @@
     .products-other__content {
         display: flex;
         flex-direction: column;
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            display: flex;
+            flex-direction: row;
+        }
     }
 
     .products-other__product-title {
@@ -25,6 +30,10 @@
         margin-left: -140px;
         line-height: 16px;
         text-transform: uppercase;
+        
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            margin-top: 30px;
+        }
     }
 
     .products-other__header-title {
@@ -41,6 +50,10 @@
         top: -16px;
         padding-left: 26px;
         background-color: white;
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            left: calc(50% - 362px);
+        }
     }
 
     .block-list {
@@ -52,6 +65,10 @@
         line-height: 14px;
         display: flex;
         justify-content: center;
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            margin: 40px 47px 28px;
+        }
 
         .block-list__information {
             width: 104px;
@@ -67,8 +84,15 @@
 
     .products-other__button {
         width: 280px;
+        margin: auto;
+        display: block;
         height: 40px;
         background-color: #68b738;
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            width: 678px;
+            height: 40px;
+        }
 
         .products-other-button-text {
             width: 61px;
@@ -91,6 +115,13 @@
         border-bottom: 2px solid #cdcdcd;
         margin-top: 17px;
         margin-bottom: 17px;
+        max-width: 280px;
+        display: flex;
+        margin: 25px auto;
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            display: none;
+        }
     }
 }
 
@@ -104,6 +135,9 @@
     .products-other__img-product {
         display: flex;
         margin: 20px auto 0;
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            margin: 93px auto 0;
+        }
     }
 
     .products-other__svg {
@@ -112,6 +146,10 @@
         position: absolute;
         top: 62px;
         left: calc(50% - 28px);
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            left: calc(50% - 275px);
+        }
     }
 
     .products-other__text {
@@ -125,5 +163,12 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            top: 68px;
+            left: calc(50% - -72px);
+            width: 165px;
+            font-size: 17px;
+        }
     }
 }
