@@ -68,8 +68,6 @@
 
     .goods__block-img {
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
-            
-
             .img--small {
                 width: 322px;
                 height: 166px;
@@ -83,6 +81,26 @@
                 position: relative;
                 top: -70px;
             }
+
+            .img--size {
+                width: 279px;
+            }
+        }
+    }
+
+    .content-box__propertyes {
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            
+            margin-bottom: 36px;
+            position: relative;
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 260px;
+                right: 32px;
+                border: 1px solid #9f9d9d;
+            }
         }
     }
 
@@ -90,7 +108,6 @@
         .mrgn--style {
             margin-top: -43px;
         }
-
     }
 
     .content-box__title {
@@ -152,6 +169,11 @@
         background-color: #68b738;
         height: 40px;
         margin-bottom: 25px;
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            width: 260px;
+
+        }
 
         .btn__text {
             width: 61px;
