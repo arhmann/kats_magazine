@@ -395,6 +395,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 60px;
   margin: 19px 0;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .products .products__title {
+    margin: 19px 0 156px;
+  }
+}
 .products .goods__body {
   display: flex;
   overflow: visible;
@@ -412,17 +417,25 @@ h1, h2, h3, h4, h5, h6 {
   height: 144px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .products .goods__img-product {
+  .products .goods__block-img .img--small {
+    width: 322px;
+    height: 166px;
     position: relative;
-    width: 298px;
-    height: 190px;
-    top: -75px;
+    top: -34px;
+  }
+  .products .goods__block-img .img--big {
+    width: 319px;
+    height: 210px;
+    position: relative;
+    top: -70px;
   }
 }
-.products .img--small {
-  top: -30px;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .products .mrgn--style {
+    margin-top: -43px;
+  }
 }
-.products .content-box .content-box__title {
+.products .content-box__title {
   width: 72px;
   height: 51px;
   color: #111111;
@@ -434,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .products .content-box .content-box__title {
+  .products .content-box__title {
     margin: auto;
     width: 132px;
     color: #111111;
@@ -445,7 +458,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
   }
 }
-.products .content-box .category {
+.products .category {
   display: flex;
   font-family: "Arial MT";
   font-size: 12px;
@@ -454,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .products .content-box .category {
+  .products .category {
     color: #444444;
     font-family: "Arial MT";
     font-size: 16px;
@@ -462,12 +475,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 16px;
   }
 }
-.products .content-box .category .category__information {
+.products .category .category__information {
   margin-right: 64px;
   min-width: 37px;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .products .content-box .category .category__information {
+  .products .category .category__information {
     margin-right: 146px;
     min-width: 65px;
     font-size: 16px;
