@@ -207,6 +207,11 @@
     .block-seeAll__content {
         display: flex;
         flex-direction: column;
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+        width: 324px;
+        height: 431px;
+        }
 
         .plus-add-svg {
             width: 30px;
