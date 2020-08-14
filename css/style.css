@@ -883,6 +883,11 @@ h1, h2, h3, h4, h5, h6 {
   align-content: space-between;
   margin: 25px auto;
 }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer__content .footer__header-text {
+    margin: 39px auto;
+  }
+}
 .footer__content .footer__header-text .footer__title {
   width: 123px;
   height: 57px;
@@ -893,6 +898,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 20px;
   text-transform: uppercase;
   margin-right: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer__content .footer__header-text .footer__title {
+    margin-right: 406px;
+  }
 }
 .footer__content .footer__header-text .footer__text {
   width: 134px;
@@ -917,7 +927,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer__content .footer__social-box {
   display: flex;
-  margin: 60px auto;
+  margin: 60px calc(50% - 74px) 60px;
   fill: #666666;
 }
 .footer__content .footer__social-box .footer__vk-svg {
@@ -946,8 +956,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  margin-left: calc(50% - 147px);
-  margin-bottom: 37px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__content .footer__box-bottom .footer__text-bottom {
+    margin-left: calc(50% - 147px);
+    margin-bottom: 37px;
+  }
 }
 .footer__content .footer__box-bottom .footer__box-academ-svg {
   position: relative;
@@ -957,6 +971,35 @@ h1, h2, h3, h4, h5, h6 {
   width: 29px;
   height: 31px;
   fill: #666666;
-  right: calc(50% - 178px);
-  top: -7px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__content .footer__box-bottom .footer__html-academy-svg {
+    right: calc(50% - 178px);
+    top: -7px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer__content .footer__box-bottom .footer__html-academy-svg {
+    top: 38px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer__block-content {
+    display: flex;
+  }
+  .footer__block-content .footer__cat-energy-svg {
+    margin: 43px 54px;
+  }
+  .footer__block-content .footer__social-box {
+    margin: 46px calc(50% - 281px) 60px;
+  }
+  .footer__block-content .footer__text-bottom {
+    font-size: 18px;
+    margin: 45px 0 0 0;
+    width: 126px;
+  }
 }
