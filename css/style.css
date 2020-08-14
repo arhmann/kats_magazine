@@ -550,6 +550,8 @@ h1, h2, h3, h4, h5, h6 {
   .products .block-seeAll__content {
     width: 324px;
     height: 431px;
+    border-left: 2px solid #f2f2f2;
+    border-right: 2px solid #f2f2f2;
   }
 }
 .products .block-seeAll__content .plus-add-svg {
@@ -557,6 +559,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 27px auto;
   display: flex;
   opacity: 0.2;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .products .block-seeAll__content .plus-add-svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 51px;
+    margin-top: 55px;
+    opacity: 0.1;
+  }
 }
 .products .block-seeAll__content .block-seeAll__title {
   width: 217px;
@@ -570,6 +581,15 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   text-transform: uppercase;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .products .block-seeAll__content .block-seeAll__title {
+    width: 149px;
+    height: 38px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+}
 .products .block-seeAll__content .block-seeAll__text {
   width: 203px;
   height: 12px;
@@ -580,11 +600,25 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 16px;
   margin: 0 auto 22px;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .products .block-seeAll__content .block-seeAll__text {
+    width: 165px;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 62px;
+  }
+}
 .products .block-seeAll__content .block-seeAll__button {
   width: 280px;
   height: 40px;
   background-color: #f2f2f2;
   margin: 0 auto 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .products .block-seeAll__content .block-seeAll__button {
+    height: 43px;
+  }
 }
 .products .block-seeAll__content .block-seeAll__button .btn_text {
   width: 89px;

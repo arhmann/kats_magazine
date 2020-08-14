@@ -90,7 +90,6 @@
 
     .content-box__propertyes {
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
-            
             margin-bottom: 36px;
             position: relative;
 
@@ -172,7 +171,6 @@
 
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
             width: 260px;
-
         }
 
         .btn__text {
@@ -208,9 +206,10 @@
         display: flex;
         flex-direction: column;
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-        width: 324px;
-        height: 431px;
+            width: 324px;
+            height: 431px;
+            border-left: 2px solid #f2f2f2;
+            border-right: 2px solid #f2f2f2;
         }
 
         .plus-add-svg {
@@ -218,6 +217,13 @@
             margin: 27px auto;
             display: flex;
             opacity: 0.2;
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                width: 60px;
+                height: 60px;
+                margin-bottom: 51px;
+                margin-top: 55px;
+                opacity: 0.1;
+            }
         }
 
         .block-seeAll__title {
@@ -231,6 +237,14 @@
             margin: 0 auto 11px;
             display: flex;
             text-transform: uppercase;
+
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                width: 149px;
+                height: 38px;
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 28px;
+            }
         }
 
         .block-seeAll__text {
@@ -242,6 +256,14 @@
             font-weight: 400;
             line-height: 16px;
             margin: 0 auto 22px;
+
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                width: 165px;
+                height: 35px;
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 62px;
+            }
         }
 
         .block-seeAll__button {
@@ -249,6 +271,9 @@
             height: 40px;
             background-color: #f2f2f2;
             margin: 0 auto 50px;
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                height: 43px;
+            }
 
             .btn_text {
                 width: 89px;
