@@ -18,6 +18,19 @@
     .products--maxwi {
         max-width: 290px;
         margin: auto;
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            max-width: 707px;
+            width: 100%;
+        }
+    }
+
+    .products__content {
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
     }
 
     .products__title {
@@ -33,15 +46,31 @@
 
     .goods__body {
         display: flex;
+        overflow: visible;
 
-        .content-box__propertyes {
-            height: x;
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            flex-direction: column;
+
+            .goods__block-img {
+                margin: auto;
+            }
         }
     }
 
     .goods__img-product {
         width: 140px;
         height: 144px;
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            position: relative;
+            width: 298px;
+            height: 190px;
+            top: -75px;
+        }
+    }
+
+    .img--small {
+        top: -30px;
     }
 
     .content-box {
@@ -55,6 +84,17 @@
             line-height: 20px;
             text-transform: uppercase;
             margin-top: 20px;
+
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                margin: auto;
+                width: 132px;
+                color: #111111;
+                font-family: Oswald;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 20px;
+            }
         }
 
         .category {
@@ -65,9 +105,25 @@
             line-height: 16px;
             color: #444444;
 
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                color: #444444;
+                font-family: "Arial MT";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 16px;
+            }
+
             .category__information {
                 margin-right: 64px;
                 min-width: 37px;
+
+                @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                    margin-right: 146px;
+                    min-width: 65px;
+                    font-size: 16px;
+                    height: 25px;
+                    margin-left: 30px;
+                }
             }
         }
     }
@@ -93,12 +149,18 @@
 
     .goods {
         border: 1px solid #ededed;
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            width: 324px;
+            height: 431px;
+            background-color: #f1f1f2;
+            margin-bottom: 140px;
+        }
     }
 
     .plus-add-avg {
         width: 30px;
         height: 30px;
-
         opacity: 0.2;
     }
 

@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color: #f2f2f2;
     margin-top: 35px;
+    width: 100%;
 
     .footer__header-text {
         display: flex;
@@ -34,7 +35,7 @@
 
     .footer_img {
         width: 100%;
-        height: 499px;
+        height: 443px;
     }
 
     .footer__social-box {
@@ -97,7 +98,7 @@
             width: 29px;
             height: 31px;
             fill: #666666;
-            right: calc(50% - 180px);
+            right: calc(50% - 178px);
             top: -7px;
         }
     }
